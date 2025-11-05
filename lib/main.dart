@@ -5,9 +5,12 @@ import 'package:yollr/features/auth/profile_photo_screen.dart';
 import 'package:yollr/features/auth/profile_setup_screen.dart';
 import 'package:yollr/features/auth/school_entry_screen.dart';
 import 'package:yollr/features/auth/splash_screen.dart';
+import 'package:yollr/features/billing/billing_subscription_screen.dart';
+import 'package:yollr/features/inbox/inbox_screen.dart';
 import 'package:yollr/features/ob/follow_friends_screen.dart';
 import 'package:yollr/features/pools/loading_pools_screen.dart';
 import 'package:provider/provider.dart';
+import 'package:yollr/features/result/result_screen.dart';
 
 import 'core/theme/theme_provider.dart';
 
@@ -31,7 +34,9 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'Yollr',
           theme: themeProvider.themeData,
-          home: const LoadingPoolsScreen(),
+          // home: const LoadingPoolsScreen(),
+          // home: const SplashScreen(),
+          home: const ResultScreen(),
         );
       },
     );

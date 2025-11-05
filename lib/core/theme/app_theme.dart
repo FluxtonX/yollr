@@ -1,6 +1,6 @@
 //  lib/core/theme/app_theme.dart
 import 'package:flutter/material.dart';
-import 'package:hime/core/theme/pallete.dart';
+import 'package:yollr/core/theme/pallete.dart';
 
 class AppTheme {
   static final ThemeData lightTheme = ThemeData(
